@@ -1,0 +1,62 @@
+body {
+  background-color: rgb(240, 233, 229);
+  font-family: Geneva, Verdana, sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  text-align: center;
+  margin: 0;
+}
+
+#img-div,
+#tribute-info {
+  text-align: center;
+}
+
+#tribute-link {
+  cursor: pointer;
+  color: rgb(120, 158, 229);
+}
+
+#img-caption {
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  margin: 20px;
+  padding: 10px 50px;
+}
+
+#image {
+  display: block;
+  width: 700px;
+  max-width: 100%;
+  height: auto;
+  justify-content: center;
+  margin: 10px auto;
+}
+
+#summary {
+  text-align: center;
+}
+
+.content,
+.about {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+.about {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.5;
+}
+
+footer {
+  text-align: center;
+  background-color: gray;
+  color: rgb(255, 255, 255);
+}
